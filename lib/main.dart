@@ -60,19 +60,59 @@ class _WebViewExampleState extends State<WebViewExample> {
         }
       },
     );
+
+    // Initial Selected Value
+    String dropdownvalue = 'Pivot Table Demo';
+
+    // List of items in our dropdown menu
+    var items = [
+      'Pivot Table Demo',
+      'Using API calls',
+      'Using Events',
+    ];
     return Scaffold(
-        backgroundColor: Colors.white,
-        appBar: AppBar(
-          backgroundColor: Color.fromARGB(255, 223, 56, 0),
-          foregroundColor: Color.fromARGB(255, 233, 233, 233),
-          title: const Text('Flutter Flexmonster'),
-          // This drop down menu demonstrates that Flutter widgets can be shown over the web view.
-          actions: <Widget>[
-            //Pass the Flexmonster object to have access to WebViewController and perform API calls
-            NavigationControls(pivot),
+      backgroundColor: Colors.white,
+      appBar: AppBar(
+        backgroundColor: Color.fromARGB(255, 223, 56, 0),
+        foregroundColor: Color.fromARGB(255, 233, 233, 233),
+        title: const Text('Flutter Flexmonster'),
+        // This drop down menu demonstrates that Flutter widgets can be shown over the web view.
+        actions: <Widget>[
+          //Pass the Flexmonster object to have access to WebViewController and perform API calls
+          NavigationControls(pivot),
+        ],
+      ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            DropdownButton(
+              // Initial Value
+              value: dropdownvalue,
+
+              // Down Arrow Icon
+              icon: const Icon(Icons.keyboard_arrow_down),
+
+              // Array list of items
+              items: items.map((String items) {
+                return DropdownMenuItem(
+                  value: items,
+                  child: Text(items),
+                );
+              }).toList(),
+              // After selecting the desired option,it will
+              // change button value to selected value
+              onChanged: (String? newValue) {
+                setState(() {
+                  dropdownvalue = newValue!;
+                });
+              },
+            ),
+            SizedBox(height: 500, child: pivot)
           ],
         ),
-        body: pivot);
+      ),
+    );
   }
 }
 

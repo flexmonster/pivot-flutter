@@ -9,7 +9,7 @@ This repository holds the source code for a simple [Flutter](https://flutter.dev
 
 ## Prerequisites
 
-To run the sample project with Blazor, you will need Flutter 2.17.6 or higher. [Get it here](https://docs.flutter.dev/get-started/install) if it's not already installed on your machine.
+To run the sample project with Flutter, you will need Flutter 2.17.6 or higher. [Get it here](https://docs.flutter.dev/get-started/install) if it's not already installed on your machine.
 
 ## Installation
 

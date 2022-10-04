@@ -32,6 +32,7 @@ class TabNavigation extends StatelessWidget {
                 ),
               ),
               body: const TabBarView(
+                physics: NeverScrollableScrollPhysics(),
                 children: [
                   Center(child: PivotTableDemo()),
                   Center(child: UsingApiCalls()),

@@ -34,8 +34,6 @@ final List<String> _eventListWithoutData = [
   "localizationloaded",
   "olapstructureloaded",
   "openingreportfile",
-  "printcomplete",
-  "printstart",
   "querycomplete",
   "ready",
   "reportchange",

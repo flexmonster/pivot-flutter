@@ -27,7 +27,7 @@ class TabNavigation extends StatelessWidget {
                   tabs: [
                     Tab(text: "Pivot Table Demo"),
                     Tab(text: "Using API Calls"),
-                    Tab(text: "Using Events"),
+                    Tab(text: "Handling Events"),
                   ],
                 ),
               ),

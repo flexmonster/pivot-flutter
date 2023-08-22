@@ -27,15 +27,15 @@ git clone https://github.com/flexmonster/pivot-flutter.git && cd pivot-flutter
 
 2. Install Flutter dependencies:
 
-```
+```bash
 dart pub get
-``` 
+```
 
 3. Open and connect your mobile device.
 
 4. Run the sample project from the console:
 
-```
+```bash
 flutter run
 ``` 
 

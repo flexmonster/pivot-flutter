@@ -56,7 +56,7 @@ Flutter sample project contains several examples of Flexmonster Pivot usage and 
 - **Pivot table demo** shows how to define the `report`, `toolbar`, `width`, and `height` initialization parameters.
 - **Using API calls** illustrates how to use Flexmonster's methods.
 - **Handling events** demonstrates how to handle Flexmonster's events.
-- **Customizing cells** is an example of grid customization with the `customizeCell()` method.
+- **Customizing cells** is an example of grid customization using the `customizeCell()` method.
   
 You can try all of these examples right from the project’s starting page.
 

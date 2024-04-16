@@ -1,5 +1,5 @@
 # Flutter pivot table | Flexmonster Pivot Table & Charts sample project with Flutter
-[![Flexmonster Pivot Table & Charts](https://static.flexmonster.com/uploads/2023/09/08090551/flutter.png)](https://www.flexmonster.com?r=sample_flutter)
+[![Flexmonster Pivot Table & Charts](https://cdn.flexmonster.com/readmes/flutter.webp)](https://www.flexmonster.com?r=sample_flutter)
 Website: [flexmonster.com](https://www.flexmonster.com?r=sample_flutter)
 
 [![Github Stars](https://img.shields.io/github/stars/flexmonster?style=social)](https://github.com/flexmonster) [![Twitter](https://img.shields.io/twitter/follow/Flexmonster?style=social)](https://twitter.com/Flexmonster)

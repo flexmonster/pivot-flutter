@@ -6,7 +6,7 @@ Website: [flexmonster.com](https://www.flexmonster.com?r=sample_flutter)
 
 ## Flexmonster Pivot Table & Charts
 
-Flexmonster Pivot Table & Charts is a powerful and fully customizable JavaScript component for web reporting. It is packed with all core features for data analysis and can easily become a part of your Flutter data visualization project. The tool supports popular frameworks like Angular, React, Vue, Blazor, and [more](https://www.flexmonster.com/doc/available-tutorials-integration?r=sample_flutter). Also, Flexmonster connects to any data source, including SQL and NoSQL databases, JSON and CSV files, OLAP cubes, and Elasticsearch. 
+Flexmonster Pivot Table & Charts is a powerful and fully customizable JavaScript component for web reporting. It is packed with all core features for data analysis and can easily become a part of your Flutter data visualization project. The tool supports popular frameworks like React, Vue, Angular, Blazor, and [more](https://www.flexmonster.com/doc/available-tutorials-integration?r=sample_flutter). Also, Flexmonster connects to [any data source](https://www.flexmonster.com/doc/supported-data-sources?r=sample_flutter), including SQL and NoSQL databases, JSON and CSV files, OLAP cubes, and Elasticsearch. 
 
 This repository contains a sample [Flutter](https://flutter.dev/) project for Flexmonster Pivot Table & Charts.
 
@@ -23,7 +23,7 @@ Table of contents:
 
 ## Prerequisites
 
- - [Flutter 2.17.6 or higher](https://docs.flutter.dev/get-started/install)
+ - [Flutter 2.17.6 through 3.29.3](https://docs.flutter.dev/get-started/install)
 
 ## Installation
 
@@ -51,12 +51,12 @@ The result will be displayed on your mobile device.
 
 ## What is inside the project
 
-The sample project contains several examples of using and customizing the Flexmonster Pivot grid in Flutter:
+Flutter sample project contains several examples of Flexmonster Pivot usage and customization:
 
-- **Pivot table demo** shows how to define the `report`, `toolbar`, `width`, and `height` initialization parameters.
+- **Pivot table demo** shows how to define the `report`, `toolbar`, and other initialization parameters in the pivot grid for Flutter.
 - **Using API calls** illustrates how to use Flexmonster's methods.
 - **Handling events** demonstrates how to handle Flexmonster's events.
-- **Customizing cells** shows how to customize the pivot table using the `customizeCell()` method.
+- **Customizing cells** shows how to customize the pivot table using the `customizeCell()` API call.
   
 You can try all of these examples right from the project’s starting page.
 
@@ -66,18 +66,18 @@ You can try all of these examples right from the project’s starting page.
 
 ## Support and feedback
 
-In case of any issues, visit our [troubleshooting section](https://www.flexmonster.com/doc/typical-errors?r=sample_flutter). You can also search among the [resolved cases](https://www.flexmonster.com/technical-support?r=sample_flutter) for a solution to your problem.
+In case of any issues, visit our [Troubleshooting](https://www.flexmonster.com/doc/typical-errors?r=sample_flutter) section. You can also search among the [resolved cases](https://www.flexmonster.com/technical-support?r=sample_flutter) for a solution to your issue.
 
-To share your feedback or ask questions, contact our Tech team by raising a ticket on [Flexmonster Help Center](https://www.flexmonster.com/help-center?r=sample_flutter). You can also find a list of samples, technical specifications, and a user interface guide there.
+To share your feedback or ask questions, contact our Tech team by raising a ticket on our [Help Center](https://www.flexmonster.com/help-center?r=sample_flutter). You can also find a list of samples, technical specifications, and a user interface guide there.
 
 ## Flexmonster licensing
 
-This sample project uses [Flexmonster Flutter wrapper](https://github.com/flexmonster/flutter-flexmonster), which is released as an MIT-licensed (free and open-source) add-on to Flexmonster Pivot.
+This sample project uses the [Flexmonster Flutter wrapper](https://github.com/flexmonster/flutter-flexmonster), which is released as an MIT-licensed (free and open-source) add-on to Flexmonster Pivot.
 
 To learn about Flexmonster Pivot licenses, visit the [Flexmonster licensing page](https://www.flexmonster.com/pivot-table-editions-and-pricing?r=sample_flutter). 
 If you want to test our product, we provide a 30-day free trial.
 
-If you need any help with your license — fill out our [Contact form](https://www.flexmonster.com/contact-our-team?r=sample_flutter), and we will get in touch with you.
+If you need any help with your license, fill out our [Contact form](https://www.flexmonster.com/contact-our-team?r=sample_flutter), and we will get in touch with you.
 
 ## Social media
 
